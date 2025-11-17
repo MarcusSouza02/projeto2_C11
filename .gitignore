@@ -1,0 +1,58 @@
+# ---- PYCHARM ----
+.idea/
+*.iml
+
+# ---- PYTHON ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# ---- AMBIENTE VIRTUAL ----
+venv/
+env/
+.venv/
+ENV/
+
+# ---- NOTEBOOKS ----
+.ipynb_checkpoints/
+
+# ---- LOGS ----
+*.log
+
+# ---- DADOS (caso queira ignorar datasets grandes) ----
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# ---- SISTEMA OPERACIONAL ----
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ---- CACHE / TEMP ----
+.cache/
+*.tmp
+*.temp
+
+# ---- CONFIGURAÇÕES / BACKUP ----
+*.bak
+*.swp
+*.swo
+
+# ---- PASTAS GERADAS AUTOMATICAMENTE ----
+dist/
+build/
+logs/
