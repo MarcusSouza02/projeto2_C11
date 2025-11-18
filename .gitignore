@@ -1,6 +1,11 @@
-# ---- PYCHARM ----
+# ---- PYCHARM / INTELIJ IDEA ----
 .idea/
 *.iml
+# Adicionando arquivos de configuração de projeto faltantes:
+misc.xml
+modules.xml
+vcs.xml
+inspectionProfiles/
 
 # ---- PYTHON ----
 __pycache__/
@@ -9,6 +14,9 @@ __pycache__/
 *.pyd
 *.pdb
 *.pkl
+# Adicionando: logs de testes e notebooks
+.pytest_cache/
+.mypy_cache/
 
 # ---- AMBIENTE VIRTUAL ----
 venv/
@@ -18,6 +26,8 @@ ENV/
 
 # ---- NOTEBOOKS ----
 .ipynb_checkpoints/
+# Adicionando: Arquivos de estado de notebooks
+*.nbconvert.json
 
 # ---- LOGS ----
 *.log
@@ -56,3 +66,5 @@ Desktop.ini
 dist/
 build/
 logs/
+# Adicionando: Outras pastas de build comuns
+htmlcov/  # Cobertura de testes
