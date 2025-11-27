@@ -58,8 +58,8 @@ plt.title('Ruído — IPCA (Após 2020)')
 plt.grid(True)
 plt.show()
 
-# 4. FILTRAR APÓS 2020 (AGORA CORRIGIDO)
-df_filtrado = df.loc['2020':]   # <-- CORRIGIDO
+# 4. FILTRAR APÓS 2020
+df_filtrado = df.loc['2020':]  
 
 # 5. TREINAR O MODELO HOLT-WINTERS
 modelo = ExponentialSmoothing(
